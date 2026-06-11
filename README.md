@@ -28,7 +28,7 @@ The workflow combines:
 
 ## Workflow Graph
 
-![Workflow](images/workflow.png)
+![Workflow](images/Workflow.png)
 
 ---
 
