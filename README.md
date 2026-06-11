@@ -40,7 +40,7 @@ The workflow combines:
 
 ### Final Video
 
-See: ![Output](images/output.mp4)
+See: ![Output] images/output.mp4)
 
 ---
 
