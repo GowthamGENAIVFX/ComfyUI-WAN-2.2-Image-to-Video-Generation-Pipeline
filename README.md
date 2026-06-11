@@ -40,7 +40,7 @@ The workflow combines:
 
 ### Final Video
 
-See: ![Output] images/output.mp4)
+See: ![Output](https://github.com/GowthamGENAIVFX/ComfyUI-WAN-2.2-Image-to-Video-Generation-Pipeline/blob/main/images/output.mp4)
 
 ---
 
