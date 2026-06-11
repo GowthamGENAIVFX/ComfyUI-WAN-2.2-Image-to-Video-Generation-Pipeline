@@ -1,1 +1,137 @@
+# ComfyUI WAN 2.2 Image-to-Video Generation Pipeline
 
+A production-oriented ComfyUI workflow designed for transforming static images into cinematic video sequences using WAN 2.2.
+
+This project demonstrates AI-driven motion synthesis, image-to-video generation, LoRA enhancement, and video export workflows.
+
+---
+
+## Project Overview
+
+The objective of this workflow is to convert a single image into a short cinematic video while preserving character identity and visual consistency.
+
+The workflow combines:
+
+* WAN 2.2 Video Model
+* LoRA Enhancement
+* Motion Prompting
+* Multi-Stage Sampling
+* Video Encoding
+
+---
+
+## Architecture Diagram
+
+![Architecture Diagram](images/architecture-diagram.png)
+
+---
+
+## Workflow Graph
+
+![Workflow](images/workflow.png)
+
+---
+
+## Sample Outputs
+
+### Input Image
+
+![Input](images/input-image.png)
+
+### Generated Frames
+
+![Frame01](images/frame-01.png)
+
+![Frame02](images/frame-02.png)
+
+![Frame03](images/frame-03.png)
+
+### Final Video
+
+See: assets/demo-video.mp4
+
+---
+
+## Workflow Structure
+
+Load WAN Model
+
+↓
+
+Load Image
+
+↓
+
+Motion Prompt
+
+↓
+
+WAN ImageToVideo
+
+↓
+
+LoRA Enhancement
+
+↓
+
+KSampler Stage 1
+
+↓
+
+KSampler Stage 2
+
+↓
+
+VAE Decode
+
+↓
+
+Video Combine
+
+↓
+
+MP4 Export
+
+---
+
+## Technical Stack
+
+| Category        | Technology    |
+| --------------- | ------------- |
+| Workflow Engine | ComfyUI       |
+| Video Model     | WAN 2.2       |
+| Enhancement     | LoRA          |
+| Sampling        | KSampler      |
+| Encoding        | Video Combine |
+| Programming     | Python        |
+| Framework       | PyTorch       |
+
+---
+
+## Documentation
+
+| Document                                                                  | Description                            |
+| ------------------------------------------------------------------------- | -------------------------------------- |
+| 📘 [Node Explanations](docs/node-explanations.md)                         | Detailed explanation of workflow nodes |
+| 📗 [Optimization Notes](docs/optimization-notes.md)                       | Workflow testing and optimization      |
+
+---
+
+## Learning Objectives
+
+* Image-to-Video Generation
+* Motion Prompt Engineering
+* WAN 2.2 Workflows
+* Video Synthesis
+* AI Animation Pipelines
+* Production Workflow Design
+
+---
+
+## Future Improvements
+
+* Character Consistency
+* Multi-Shot Story Generation
+* Camera Motion Control
+* Lip Sync Integration
+* Full AI Video Pipeline
