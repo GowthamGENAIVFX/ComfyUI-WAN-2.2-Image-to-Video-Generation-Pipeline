@@ -22,7 +22,7 @@ The workflow combines:
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/architecture-diagram.png)
+![Architecture Diagram](images/architecture_diagram.png)
 
 ---
 
@@ -36,15 +36,7 @@ The workflow combines:
 
 ### Input Image
 
-![Input](images/input-image.png)
-
-### Generated Frames
-
-![Frame01](images/frame-01.png)
-
-![Frame02](images/frame-02.png)
-
-![Frame03](images/frame-03.png)
+![Input](images/input.png)
 
 ### Final Video
 
