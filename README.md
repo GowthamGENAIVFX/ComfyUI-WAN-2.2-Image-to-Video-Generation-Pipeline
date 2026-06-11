@@ -40,7 +40,7 @@ The workflow combines:
 
 ### Final Video
 
-See: assets/demo-video.mp4
+See: ![Output](images/output.mp4)
 
 ---
 
